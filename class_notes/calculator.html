@@ -1,15 +1,43 @@
-<div id="displayNumberBox"
-    style="background-color: grey; padding: 2px;">
-    0
-</div>
-<button onclick="pressButton(0)">0</button>
-<button onclick="pressButton(1)">1</button>
-<button onclick="pressButton(2)">2</button>
-<button onclick="pressButton(3)">3</button>
-<button onclick="pressButton(4)">4</button>
-<br/>
-<button onclick="equalPressed()">=</button>
-<button onclick="clearDisplay()">C</button>
-<button onclick="addPressed()">+</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="displayNumberBox">
+            0
+        </div>
+        <div class="button-row">
+            <button onclick="pressButton(7)">7</button>
+            <button onclick="pressButton(8)">8</button>
+            <button onclick="pressButton(9)">9</button>
+            <button onclick="addPressed()">+</button>        
+        </div>
+        <div class="button-row">
+            <button onclick="pressButton(4)">4</button>
+            <button onclick="pressButton(5)">5</button>
+            <button onclick="pressButton(6)">6</button>
+            <button >-</button>        
+        </div>
+        <div class="button-row">
+            <button onclick="pressButton(1)">1</button>
+            <button onclick="pressButton(2)">2</button>
+            <button onclick="pressButton(3)">3</button>
+            <button >*</button>        
+        </div>
+        <div class="button-row">
+            <button onclick="pressButton(0)">0</button>
+            <button onclick="equalPressed()">=</button>
+            <button onclick="clearDisplay()">C</button>
+            <button >/</button>        
+        </div>
+    </div>
 
-<script src="calculator.js"></script>
+<script src="calculator.js"></script>    
+</body>
+</html>

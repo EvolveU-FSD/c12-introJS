@@ -1,0 +1,36 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.calculator {
+    background-color: #4D8076;
+    color: #C4FCEF;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.button-row {
+    display: flex;
+}
+
+button {
+    width: 3em;
+    background-color: white;
+    height: 3em;
+    border-radius: 0.5em;
+    border-style: none;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0.5em;
+}
+
+#displayNumberBox {
+    background-color: #9FBB73;
+    color: black;
+    font-weight: 700;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    text-align: end;
+    font-size: 3em;
+}
+
